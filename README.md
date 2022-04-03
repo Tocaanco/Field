@@ -6,7 +6,7 @@
 #### You can install the package via composer
 
 ```bash
-composer require mostafasewidan/sewidan-field
+composer require tocaan/sewidan-field
 ```
 
 ### Publish the configuration file
