@@ -1,1 +1,0 @@
-{!! Form::textarea($name, $value, $field_attributes) !!}
