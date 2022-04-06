@@ -24,8 +24,7 @@
             "SewidanField\\": "src/"
         },
         "files": [
-            "src/fieldLoader.php",
-            "src/filesAttachment.php"
+            "src/fieldLoader.php"
         ]
     }
 }
