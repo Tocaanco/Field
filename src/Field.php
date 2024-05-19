@@ -1,6 +1,6 @@
 <?php
 
-namespace SewidanField;
+namespace Field;
 
 use Carbon\Carbon;
 use Form;

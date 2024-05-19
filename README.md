@@ -6,13 +6,13 @@
 #### You can install the package via composer
 
 ```bash
-composer require tocaan/sewidan-field
+composer require tocaan/field
 ```
 
 ### Publish the configuration file
 
 ```bash
-php artisan vendor:publish --provider="SewidanField\SewidanFieldServiceProvider"
+php artisan vendor:publish --provider="Field\FieldServiceProvider"
 ```
 
 ## Usage

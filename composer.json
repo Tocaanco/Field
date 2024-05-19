@@ -1,10 +1,10 @@
 {
-    "name": "tocaan/sewidan-field",
+    "name": "tocaan/field",
     "description": "this package helps to make form fields Easier to use",
     "authors": [
         {
-            "name": "MostafaSewidan",
-            "email": "sewidanmostafa@gmail.com"
+            "name": "tocaan",
+            "email": "dev@tocaan.com"
         }
     ],
     "require": {
@@ -14,14 +14,14 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SewidanField\\SewidanFieldServiceProvider"
+                "Field\\FieldServiceProvider"
             ]
         }
     },
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "SewidanField\\": "src/"
+            "Field\\": "src/"
         },
         "files": [
             "src/fieldLoader.php"

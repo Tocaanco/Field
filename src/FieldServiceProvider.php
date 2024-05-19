@@ -1,13 +1,13 @@
 <?php
-namespace SewidanField;
+namespace Field;
 use Illuminate\Support\ServiceProvider;
-class SewidanFieldServiceProvider extends ServiceProvider {
+class FieldServiceProvider extends ServiceProvider {
 
     public function boot() {
         $this->loadViewsFrom(__DIR__.'/resources/views', 'fields');
         $this->publishes([
             __DIR__.'/../config/field.php' => config_path('field.php'),
-            __DIR__.'/public' => public_path('SewidanField'),
+            __DIR__.'/public' => public_path('Field'),
         ]);
     }
 
